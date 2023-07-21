@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: #282c34;
+}
+.a.card{
+  width: 30%;
+  margin: auto;
+  margin-top: 40px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+}
+.a.card h3{
+  
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      
+    
+}
+.added.card-body{
+  margin-top: 10px;
+  border: 2px solid white;
+  margin-left: 0;
+  border-radius: 2.5rem;
+  background-color: cadetblue;
+}
+.a.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a.text {
+  flex-grow: 1;
+  text-align: start;
+}
+
+.a.button-wrapper {
+  display: flex;
+  align-items: center;
+  
+}
+
+.deleteButton {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+.a.card p{
+  font-weight: bold;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  opacity: 0.5; /* Set the desired opacity value */
+}
+
+.carousel-description {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.5; /* Set the desired opacity value */
+}
+.container p {
+ color: white;
+}
+.r{
+  width: 80px;
+}
+.s{
+  width: 80px;
+}
+.sticky-header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.pad-to-header{
+  padding-bottom: 69px;
+    position: relative;
+    z-index: 1;
+}
+.card:hover{
+  transform: scale(1.1);
+}
