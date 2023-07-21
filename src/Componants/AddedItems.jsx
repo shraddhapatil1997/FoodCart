@@ -23,7 +23,7 @@ export const AddedItems = () => {
     return accumulator;
   }, []);
 
-  //calculate Total
+  //calculate Total of
 
   const totalSum = summedItems.reduce(
     (accumulator, item) => accumulator + item.total,
